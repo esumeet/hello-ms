@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.iamsumeet.mstests</groupId>
-	<artifactId>HelloMS</artifactId>
+	<artifactId>hello-ms</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -53,6 +53,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+          			<outputDirectory>dist</outputDirectory>
+        		</configuration>
 			</plugin>
 		</plugins>
 	</build>
